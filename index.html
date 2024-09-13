@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #main
+    {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    margin:30px;
+    #card
+    {
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:left;
+     border:1px rgba(135, 207, 235, 0.604) solid;
+     border-radius: 5px;
+     padding-bottom: 20px;
+     margin-right: 69px;
+     gap:10px;
+     img 
+     {
+      width: 200px;
+      height:200px;
+     }
+     #itemname
+     {
+       color:black;
+       font-size:17px;
+       word-spacing:2px;
+       letter-spacing: 1px;
+       padding-left:10px;
+     }
+     #priceonwards
+     {
+        display:flex;
+        flex-direction:row;
+        justify-content:left;
+        align-items:center;
+        padding-left:10px;
+        #price
+        {
+         font-size:27px;
+         font-weight:bold;
+        }
+        #onwards
+        {
+          font-size:12px;
+          color:grey;
+          font-weight:bold;
+          text-align: right;
+          margin-top: 10px;
+          margin-left:5px;
+          letter-spacing: 1px;
+        }
+     }
+     #delivery
+     {
+       
+       background-color: rgba(189, 224, 237, 0.423);
+       margin-left:10px;
+       border-radius: 50px;
+       font-size: 13px;
+       padding: 10px 15px;
+       padding-top:4px ;
+       width:77px;
+       height:5px;
+       font-weight: 200;
+       color:grey;
+     }
+     #reviewsandrating
+     {
+        display:flex;
+       flex-direction:row;
+       justify-content:left;
+        align-items:center;
+        padding-left:10px;
+        #rating
+        {
+           background-color: rgba(4, 163, 4, 0.696);
+           padding:5px 15px;
+           border-radius: 50px;
+        }
+        #reviews
+        {
+            margin-left:5px;
+            color:grey;
+            font-size:14.5px;
+            font-weight:500px;
+        }
+     }
+
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/e/f/o/-original-imah4a6jt6hfafgj.jpeg?q=70" alt="">
+            <div id="itemname"><b>Puma classical white</b></div>
+            <div id="priceonwards">
+                <div id="price">₹2,994</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.2</div>
+                <div id="reviews">59,789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/x/j/l/-original-imah4adtvhgez4gf.jpeg?q=70" alt="">
+            <div id="itemname"><b>Adidas Liberty</b></div>
+            <div id="priceonwards">
+                <div id="price">₹5,864</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.0</div>
+                <div id="reviews">86,978 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/1/q/p/6-rkt-19039-6-atom-red-original-imah2hvyg2bwnzzf.jpeg?q=70" alt="">
+            <div id="itemname"><b>Reebok flight light</b></div>
+            <div id="priceonwards">
+                <div id="price">₹6,989</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.3</div>
+                <div id="reviews">12,687 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/v/h/f/-original-imagw5mmwjtbm2fe.jpeg?q=70" alt="">
+            <div id="itemname"><b>Nike revolution brack</b></div>
+            <div id="priceonwards">
+                <div id="price">₹12,567</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">3.8</div>
+                <div id="reviews">17,896 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/l/0/p/-original-imagtez9kmbejmuf.jpeg?q=70" alt="">
+            <div id="itemname"><b>Liberty own</b></div>
+            <div id="priceonwards">
+                <div id="price">₹3,976</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.4</div>
+                <div id="reviews">59,975 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/8/g/0/-original-imah4aenemjggzyr.jpeg?q=70" alt="">
+            <div id="itemname"><b>Campus terminator</b></div>
+            <div id="priceonwards">
+                <div id="price">₹9,999</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">3.8</div>
+                <div id="reviews">55,789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-shoe/6/v/g/8-e-3280-42-ezbro-brown-original-imahfs6gx5yvjuen.jpeg?q=70" alt="">
+            <div id="itemname"><b>Campus Elivator</b></div>
+            <div id="priceonwards">
+                <div id="price">₹12,875</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.1</div>
+                <div id="reviews">66,789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/e/5/i/6-310405-6-puma-black-silver-mist-jade-frost-original-imah385yv8mawwpf.jpeg?q=70" alt="">
+            <div id="itemname"><b>Mochi Gaurge</b></div>
+            <div id="priceonwards">
+                <div id="price">₹2,794</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">3.9</div>
+                <div id="reviews">97,789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/400/400/xif0q/shoe/3/o/f/9-iq9110-9-adidas-ngtsky-wonste-oldgol-original-imagr5vgq2yz8cq6.jpeg?q=50" alt="">
+            <div id="itemname"><b>Woodland Grace</b></div>
+            <div id="priceonwards">
+                <div id="price">₹19,989</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.8</div>
+                <div id="reviews">74,609 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/a/p/6/-original-imah46jzkfnkvade.jpeg?q=70" alt="">
+            <div id="itemname"><b>Backland brack</b></div>
+            <div id="priceonwards">
+                <div id="price">₹25,766</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.2</div>
+                <div id="reviews">74,589 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/y/x/v/-original-imah23czfa5n43ft.jpeg?q=70" alt="">
+            <div id="itemname"><b>Skechers doomen</b></div>
+            <div id="priceonwards">
+                <div id="price">₹46,794</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.6</div>
+                <div id="reviews">5,98,765 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/9/s/d/-original-imaggcb6bhugwzcg.jpeg?q=70" alt="">
+            <div id="itemname"><b>Maski rooben</b></div>
+            <div id="priceonwards">
+                <div id="price">₹9,824</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.0</div>
+                <div id="reviews">59,789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/h/r/u/-original-imagtu96zyba4exc.jpeg?q=70" alt="">
+            <div id="itemname"><b>Mochi lumen</b></div>
+            <div id="priceonwards">
+                <div id="price">₹1,694</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">3.8</div>
+                <div id="reviews">9,789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/q/1/v/-original-imahfqz3y8wuvdrq.jpeg?q=70" alt="">
+            <div id="itemname"><b>Red Chief</b></div>
+            <div id="priceonwards">
+                <div id="price">₹9,874</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">3.2</div>
+                <div id="reviews">7,689 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/8/7/r/6-391893-6-puma-black-dandelion-original-imagharthz99gap4.jpeg?q=70" alt="">
+            <div id="itemname"><b>Sparx Elite</b></div>
+            <div id="priceonwards">
+                <div id="price">₹3,694</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.1</div>
+                <div id="reviews">59,769 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/a/2/k/6-oxygen-05cwht-6-asian-white-original-imaguwbkmyraggvh.jpeg?q=70" alt="">
+            <div id="itemname"><b>Ascics rodnen</b></div>
+            <div id="priceonwards">
+                <div id="price">₹6,494</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">3.4</div>
+                <div id="reviews">9,789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/k/b/f/-original-imagyzwfzvcqyemj.jpeg?q=70" alt="">
+            <div id="itemname"><b>Sparx redmen</b></div>
+            <div id="priceonwards">
+                <div id="price">₹1,994</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">3.8</div>
+                <div id="reviews">1,789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/k/2/c/-original-imagz5bz9kbggbsb.jpeg?q=70" alt="">
+            <div id="itemname"><b>Campus foottrap</b></div>
+            <div id="priceonwards">
+                <div id="price">₹999</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">3.8</div>
+                <div id="reviews">1,789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/n/8/m/9-iq9109-9-adidas-ftwwht-stone-pulblu-original-imagr6rgavh4mhgf.jpeg?q=70" alt="">
+            <div id="itemname"><b>Adidas Cling</b></div>
+            <div id="priceonwards">
+                <div id="price">₹94</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">3.8</div>
+                <div id="reviews">59789 reviews</div>
+            </div>
+        </div>
+        <div id="card">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/s/1/q/-original-imah4acbngtsm2cd.jpeg?q=70" alt="">
+            <div id="itemname"><b>Puma lite</b></div>
+            <div id="priceonwards">
+                <div id="price">₹9,467</div>
+                <div id="onwards">onwards</div>
+            </div>
+            <div id="delivery">Free Delivery</div>
+            <div id="reviewsandrating">
+                <div id="rating">4.2</div>
+                <div id="reviews">5,789 reviews</div>
+            </div>
+        </div>
+</body>
+</html>
